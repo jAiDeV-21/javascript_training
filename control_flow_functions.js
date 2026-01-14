@@ -41,3 +41,16 @@ switch (role)
     default:
         console.log("Invalid role.");
 }
+
+
+/* Assignment - 4 : Create a program to calculate total price based on quantity and price. */
+console.log("************** Assignment - 4 **************");
+function calculatePrice(quantity, price)
+{
+    return quantity * price;
+}
+
+let quantity = 4;
+let pricePerUnit = 150;
+let totalPrice = calculatePrice(quantity, pricePerUnit);
+console.log(`Total price of ${quantity} unit/s at ${pricePerUnit}/- is ${totalPrice}/-.`);
